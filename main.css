@@ -490,3 +490,312 @@ h1{
     background-color: #A67C52;
     color: white;
 }
+@media screen and (max-width: 992px) {
+
+    .navbar {
+        padding: 0 3%;
+    }
+
+    .navbar .nav-links {
+        gap: 15px;
+        font-size: 16px;
+    }
+
+    .navbar .logo h2 {
+        font-size: 27px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    #header .header-caption p {
+        font-size: 30px;
+    }
+
+    #second {
+        padding: 60px 5%;
+    }
+
+    .second-image,
+    .second-caption {
+        width: 50%;
+        padding: 15px;
+    }
+
+    #third {
+        padding: 60px 5%;
+    }
+
+    .third-caption,
+    .third-image {
+        padding: 15px;
+    }
+
+    #fourth {
+        padding: 60px 5%;
+    }
+
+    #fourth .item {
+        width: 48%;
+        margin: 1%;
+    }
+
+    #fifth .container {
+        width: 90%;
+    }
+
+    #sixth {
+        padding: 50px 3%;
+    }
+
+    #sixth .s1,
+    #sixth .s2,
+    #sixth .s3,
+    #sixth .s4 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        height: auto;
+        min-height: 80px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        padding: 8px 10px;
+    }
+
+    .navbar .logo h2 {
+        font-size: 23px;
+    }
+
+    .navbar .nav-links {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px 16px;
+        font-size: 15px;
+    }
+
+    #header {
+        min-height: 100vh;
+        height: auto;
+        padding: 170px 15px 70px;
+        background-position: center;
+    }
+
+    .header-caption {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 43px;
+        margin: 20px 0;
+    }
+
+    #header .header-caption p {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+
+    .b1,
+    .b2 {
+        padding: 15px 20px;
+        font-size: 15px;
+        margin: 8px 4px;
+    }
+
+    #second {
+        padding: 50px 7%;
+    }
+
+    .second-image,
+    .second-caption {
+        width: 100%;
+        float: none;
+        padding: 15px 0;
+    }
+
+    .second-image img {
+        padding-bottom: 0;
+    }
+
+    .second-caption h2 {
+        font-size: 32px;
+    }
+
+    .second-caption p {
+        font-size: 16px;
+    }
+
+    #third {
+        padding: 50px 7%;
+    }
+
+    .third-caption,
+    .third-image {
+        width: 100%;
+        float: none;
+        padding: 15px 0;
+    }
+
+    #fourth {
+        padding: 50px 7%;
+    }
+
+    #fourth .top h2 {
+        font-size: 30px;
+    }
+
+    #fourth .item {
+        width: 100%;
+        float: none;
+        margin: 0 0 25px;
+    }
+
+    #fourth .item img {
+        height: 230px;
+    }
+
+    #fifth {
+        padding: 50px 0;
+    }
+
+    #fifth .container {
+        width: 90%;
+    }
+
+    #fifth .location,
+    #fifth .map {
+        width: 100%;
+        float: none;
+        padding: 15px 0;
+    }
+
+    #fifth .location h2 {
+        font-size: 29px;
+    }
+
+    #fifth .map iframe {
+        height: 280px;
+    }
+
+    #sixth {
+        padding: 50px 7%;
+    }
+
+    #sixth .s1,
+    #sixth .s2,
+    #sixth .s3,
+    #sixth .s4 {
+        width: 100%;
+        float: none;
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+
+    #sixth h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    #seventh {
+        padding: 35px 10px;
+    }
+
+    #seventh .o h2 {
+        font-size: 25px;
+    }
+
+    #seventh .t a {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    #header,
+    #second,
+    #third,
+    #fourth,
+    #fifth,
+    #sixth {
+        scroll-margin-top: 110px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .navbar {
+        padding: 7px 5px;
+    }
+
+    .navbar .logo h2 {
+        font-size: 21px;
+    }
+
+    .navbar .nav-links {
+        gap: 4px 12px;
+        font-size: 13px;
+    }
+
+    #header {
+        padding: 160px 12px 50px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    #header .header-caption p {
+        font-size: 19px;
+    }
+
+    .b1,
+    .b2 {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+
+    #second,
+    #third,
+    #fourth {
+        padding: 40px 6%;
+    }
+
+    .second-caption h2,
+    #fourth .top h2 {
+        font-size: 27px;
+    }
+
+    #fifth .container {
+        width: 88%;
+    }
+
+    #fifth .map iframe {
+        height: 230px;
+    }
+
+    #sixth {
+        padding: 40px 8%;
+    }
+
+    #sixth h4 {
+        font-size: 18px;
+    }
+
+    #sixth p,
+    #sixth ul li {
+        font-size: 13px;
+    }
+
+    #seventh .y p {
+        font-size: 12px;
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
